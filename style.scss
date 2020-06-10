@@ -36,7 +36,7 @@ form {
 #email {
   outline: none;
   border: none;
-  border-bottom: 1px solid rgb(2, 199, 2);
+  border-bottom: 1px solid rgb(16, 17, 16);
   width: 100%;
   font-size: 16px;
   padding: 10px;
@@ -70,6 +70,7 @@ form {
 
 .buttons {
   display: flex;
+  margin-top: 50px;
   justify-content: space-between;
 }
 
