@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Send Email</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:100,300"
+      rel="stylesheet"
+    />
+  </head>
+  <div class="container">
+    <form action="" id="form">
+      <div class="heading">
+        <h3>Send New Email</h3>
+      </div>
+      <div class="bottom">
+        <div class="email">
+          <input type="email" id="email" />
+          <label class="placeholders" for="text">e-mail</label>
+        </div>
+        <div class="subject">
+          <input type="subject" id="subject" />
+          <label class="placeholders" for="subject">subject</label>
+        </div>
+        <div class="message">
+          <input type="message" id="message" />
+          <label class="placeholders" for="message">Message</label>
+        </div>
+        <div class="gifs">
+          <div id="spinner"><img src="/img/spinner.gif" alt="" /></div>
+          <div id="sent"><img src="/img/mail.gif" alt="" /></div>
+        </div>
+        <div class="buttons">
+          <button type="submit" id="send">SEND</button>
+          <button type="submit" id="reset">RESET</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <footer>
+    <p>&copy; 2020 Samuel Ekirigwe</p>
+  </footer>
+  <body>
+    <script src="/main.js"></script>
+  </body>
+</html>

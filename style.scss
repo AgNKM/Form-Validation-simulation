@@ -1,0 +1,95 @@
+$primary: #3e3e3e;
+$secondary: #094f6e;
+
+body {
+  font-family: "Raleway", sans-serif;
+  background: linear-gradient(to right, #e4f5ff, #2d7a9c);
+  //   box-sizing: border-box;
+}
+img {
+  width: 5em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  max-width: 500px;
+  background: white;
+  margin: 30px auto;
+  border-radius: 20px;
+  padding-bottom: 30px;
+
+  .heading {
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    background: $secondary;
+    // border-bottom: 4px solid #2d7a9c;
+  }
+}
+
+#subject,
+#message,
+#email {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(2, 199, 2);
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+}
+
+#send,
+#reset {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+}
+
+#send {
+  background: rgb(13, 167, 13);
+  color: white;
+}
+#send:hover {
+  background: rgb(5, 136, 5);
+  cursor: pointer;
+}
+
+#reset {
+  background: rgb(219, 10, 10);
+  color: white;
+}
+#reset:hover {
+  background: rgb(182, 4, 4);
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  color: white;
+  text-align: right;
+}
+
+.bottom {
+  padding: 50px 50px 20px 50px;
+  text-align: center;
+}
+
+.email,
+.message,
+.subject {
+  margin-bottom: 30px;
+}
+
+#spinner,
+#sent {
+  display: none;
+}
