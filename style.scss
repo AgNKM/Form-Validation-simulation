@@ -43,7 +43,7 @@ form {
 }
 
 #send,
-#reset {
+#resetBtn {
   width: 150px;
   height: 50px;
   border-radius: 30px;
@@ -59,11 +59,11 @@ form {
   cursor: pointer;
 }
 
-#reset {
+#resetBtn {
   background: rgb(219, 10, 10);
   color: white;
 }
-#reset:hover {
+#resetBtn:hover {
   background: rgb(182, 4, 4);
   cursor: pointer;
 }
@@ -80,7 +80,7 @@ footer {
 
 .bottom {
   padding: 50px 50px 20px 50px;
-  text-align: center;
+  //   text-align: center;
 }
 
 .email,
@@ -92,4 +92,9 @@ footer {
 #spinner,
 #sent {
   display: none;
+}
+
+.gifs {
+  display: flex;
+  justify-content: center;
 }
